@@ -16,7 +16,7 @@ There are several ways to run a Spring Boot application on your local machine. O
 
 Alternatively you can right click on main project and under Run As click on Java Application and select the mail class `NewsAppApplication` from the list.
 
-## Running or opening the application on web browser
+## Running the application on web browser
 
-After running the application from IDE go to web browser `Chrome is recommended`, and type http://localhost:8080/
-on the page there is a input filed where you can paste the news URLs and get the required output.
+- After running the application on IDE, go to web browser `Chrome is recommended`, and type http://localhost:8080/
+- On home page there is a input filed where you can paste the news URLs and get the required output.
