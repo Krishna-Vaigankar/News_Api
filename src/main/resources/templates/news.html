@@ -122,13 +122,13 @@
         $("#note").empty();
         $("#scrollText").empty();
         $("#output").append('----------Output----------<br>');
-
-        $("#note").append('News from the source which has the highest occurrence count.');
-
+        
         var inputData = $("#getUrl").val();
         if (inputData == "") {
             $("#output").append('<br>Please enter the URL in above input filed.');
         } else {
+            $("#note").append('News from the source which has the highest occurrence count.');
+
             var dataUrl = '{"url" : "' + inputData + '"}';
             $.ajax({
                 type: "POST",
