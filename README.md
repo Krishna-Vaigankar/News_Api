@@ -19,4 +19,4 @@ Alternatively you can right click on main project and under Run As click on Java
 ## Running the application on web browser
 
 - After running the application on IDE, go to web browser `Chrome is recommended`, and type http://localhost:8080/
-- On home page there is a input filed where you can paste the news URLs and get the required output.
+- On home page there is a input field where you can paste the news URLs and get the required output.
